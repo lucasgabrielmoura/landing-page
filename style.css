@@ -1,0 +1,77 @@
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/assets/team.jpg);
+    background-position: 510px 170px;
+    background-size: 750px;
+    background-repeat: no-repeat;
+}
+.cabe{
+    width: 100%;
+    height: 13vh;
+    display: flex;
+}
+.boxc{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    font-size: 40px;
+    margin-left: 30px;
+    color:hsl(20, 71%, 51%);
+}
+.options{
+    justify-content: flex-end;
+}
+.list{
+    font-size: 25px;
+    margin-right: 40px;
+    width: 60%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: hsl(30, 5%, 51%);
+    font-weight: bold;
+}
+a:hover{
+    border-bottom: 3px solid hsl(20, 71%, 51%);
+    color: hsl(20, 71%, 51%);
+}
+.artigo{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    color: hsl(30, 5%, 51%);
+    display: flex;
+    align-items: center;
+
+}
+.title{
+    font-size: 70px;
+    font-weight: bold;
+}
+p{
+    font-size: 30px;
+}
+button{
+    font-size: 25px;
+    height: 50px;
+    width: 250px;
+    color: white;
+    border: 1px solid hsl(20, 71%, 51%);
+    border-radius: 10px;
+    background-color: hsl(20, 71%, 51%);
+    cursor: pointer;
+
+}
+.guarda{
+    display: flex;
+    position: relative;
+    left: 80px;
+}
